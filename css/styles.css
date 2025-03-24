@@ -1,0 +1,39 @@
+:root {
+  --primary: #00baf2;
+  --secondary: #95989a;
+  --text-color: #fff;
+  --text-secondary: #000;
+  --text-tertiary: #5d5d5d;
+}
+
+* {
+  font-family: "Montserrat";
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.overlay {
+  display: flexbox;
+}
+
+.overlay h1 {
+  font-size: 50px;
+  color: var(--primary);
+  font-weight: bolder;
+}
+
+.overlay p {
+  font-size: 20px;
+  color: var(--text-tertiary);
+}
+
+.overlay button {
+  background-color: var(--primary);
+  color: var(--text-color);
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
